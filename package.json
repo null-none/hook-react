@@ -1,27 +1,28 @@
 {
-    "name": "reactjs-custom-hooks",
-    "version": "0.0.1",
-    "description": "React custom hooks",
-    "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/null-none/reactjs-custom-hooks.git"
-    },
-    "keywords": [
-      "reactjs",
-      "localstorage",
-      "react",
-      "local storage"
-    ],
-    "bugs": {
-      "url": "https://github.com/null-none/reactjs-custom-hooks/issues"
-    },
-    "devDependencies": {
-      "react": "17.0.1",
-      "react-router-dom": "5.2.0",
-      "query-string": "6.13.7"
-    },
-    "homepage": "https://github.com/null-none/reactjs-custom-hooks",
-    "author": "Dmitry Kalinin",
-    "license": "MIT"
-  }
+  "name": "reactjs-custom-hooks",
+  "version": "0.0.1",
+  "description": "React custom hooks",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/null-none/reactjs-custom-hooks.git"
+  },
+  "keywords": [
+    "reactjs",
+    "hooks",
+    "react",
+    "react hooks"
+  ],
+  "bugs": {
+    "url": "https://github.com/null-none/reactjs-custom-hooks/issues"
+  },
+  "devDependencies": {
+    "react": "17.0.1",
+    "react-router-dom": "5.2.0",
+    "query-string": "6.13.7",
+    "reactjs-custom-hooks": "0.0.1"
+  },
+  "homepage": "https://github.com/null-none/reactjs-custom-hooks",
+  "author": "Dmitry Kalinin",
+  "license": "MIT"
+}
