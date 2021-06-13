@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/null-none/reactjs-custom-hooks.git"
+    "url": "https://github.com/null-none/reactjs-use-hooks.git"
   },
   "keywords": [
     "reactjs",
@@ -14,14 +14,14 @@
     "react hooks"
   ],
   "bugs": {
-    "url": "https://github.com/null-none/reactjs-custom-hooks/issues"
+    "url": "https://github.com/null-none/reactjs-use-hooks/issues"
   },
   "devDependencies": {
     "react": "17.0.1",
     "react-router-dom": "5.2.0",
     "query-string": "6.13.7"
   },
-  "homepage": "https://github.com/null-none/reactjs-custom-hooks",
+  "homepage": "https://github.com/null-none/reactjs-use-hooks",
   "author": "Dmitry Kalinin",
   "license": "MIT"
 }
