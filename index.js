@@ -35,6 +35,42 @@ exports.hooks = {
     // Finally, if equal then return the previous value
     return isEqual ? previous : next;
   },
+  useTimeout: function(callback, delay) => {
+    const savedCallback = React.useRef();
+
+    React.useEffect(() => {
+      savedCallback.current = callback;
+    }, [callback]);
+
+    React.useEffect(() => {
+      function tick() {
+        savedCallback.current();
+      }
+      if (delay !== null) {
+        let id = setTimeout(tick, delay);
+        return () => clearTimeout(id);
+      }
+    }, [delay]);
+  },
+  useInterval: function(callback, delay) {
+    const savedCallback = useRef();
+
+    // Remember the latest callback.
+    useEffect(() => {
+      savedCallback.current = callback;
+    }, [callback]);
+
+    // Set up the interval.
+    useEffect(() => {
+      function tick() {
+        savedCallback.current();
+      }
+      if (delay !== null) {
+        let id = setInterval(tick, delay);
+        return () => clearInterval(id);
+      }
+    }, [delay]);
+  }
   /*
   // Get the router object
   const router = useRouter();

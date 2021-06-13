@@ -1,14 +1,14 @@
-# reactjs-custom-hooks
+# reactjs-use-hooks
 React custom hooks
 
 ## Installation
 
 ```bash
-npm install reactjs-custom-hooks
+npm install reactjs-use-hooks
 ```
 or
 ```bash
-yarn add reactjs-custom-hooks
+yarn add reactjs-use-hooks
 ```
 
 ## Hooks
@@ -22,6 +22,8 @@ yarn add reactjs-custom-hooks
 - useWindowSize
 - useHover
 - useLocalStorage
+- useInterval
+- useTimeout
 
 ## Examples
 

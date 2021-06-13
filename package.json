@@ -1,6 +1,6 @@
 {
-  "name": "reactjs-custom-hooks",
-  "version": "0.0.2",
+  "name": "reactjs-use-hooks",
+  "version": "1.0.0",
   "description": "React custom hooks",
   "main": "index.js",
   "repository": {
@@ -19,8 +19,7 @@
   "devDependencies": {
     "react": "17.0.1",
     "react-router-dom": "5.2.0",
-    "query-string": "6.13.7",
-    "reactjs-custom-hooks": "0.0.1"
+    "query-string": "6.13.7"
   },
   "homepage": "https://github.com/null-none/reactjs-custom-hooks",
   "author": "Dmitry Kalinin",
