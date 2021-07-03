@@ -24,6 +24,7 @@ yarn add reactjs-use-hooks
 - useLocalStorage
 - useInterval
 - useTimeout
+- useDebounce
 
 ## Examples
 
@@ -32,6 +33,7 @@ import { useLocalStorage, useWindowSize  } from 'reactjs-use-hooks';
 
 const [name, setName] = useLocalStorage('name', 'Bob');
 const size = useWindowSize();
+...
 ```
 
 
