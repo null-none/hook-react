@@ -28,10 +28,10 @@ yarn add reactjs-use-hooks
 ## Examples
 
 ```javascript
-import { hooks } from 'reactjs-use-hooks';
+import { useLocalStorage, useWindowSize  } from 'reactjs-use-hooks';
 
-const [name, setName] = hooks.useLocalStorage('name', 'Bob');
-const size = hooks.useWindowSize();
+const [name, setName] = useLocalStorage('name', 'Bob');
+const size = useWindowSize();
 ```
 
 
