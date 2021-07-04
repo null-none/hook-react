@@ -1,4 +1,4 @@
-# reactjs-use-hooks
+# hook-react
 React custom hooks
 
 ## Installation

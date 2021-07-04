@@ -1,11 +1,11 @@
 {
   "name": "hook-react",
-  "version": "1.0.4",
-  "description": "React custom hooks",
+  "version": "1.0.5",
+  "description": "React hooks",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/null-none/reactjs-use-hooks.git"
+    "url": "https://github.com/null-none/hook-react.git"
   },
   "keywords": [
     "reactjs",
@@ -14,14 +14,14 @@
     "react hooks"
   ],
   "bugs": {
-    "url": "https://github.com/null-none/reactjs-use-hooks/issues"
+    "url": "https://github.com/null-none/hook-react/issues"
   },
   "devDependencies": {
     "react": "17.0.1",
     "react-router-dom": "5.2.0",
     "query-string": "6.13.7"
   },
-  "homepage": "https://github.com/null-none/reactjs-use-hooks",
+  "homepage": "https://github.com/null-none/hook-react",
   "author": "Dmitry Kalinin",
   "license": "MIT"
 }
