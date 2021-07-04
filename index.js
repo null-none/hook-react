@@ -11,3 +11,4 @@ export { default as useTimeout } from './src/useTimeout';
 export { default as useWhyDidYouUpdate } from './src/useWhyDidYouUpdate';
 export { default as useWindowSize } from './src/useWindowSize';
 export { default as useDebounce } from './src/useDebounce';
+export { default as useBreakpoint } from './src/useBreakpoint';

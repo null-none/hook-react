@@ -4,11 +4,11 @@ React custom hooks
 ## Installation
 
 ```bash
-npm install reactjs-use-hooks
+npm install hook-react
 ```
 or
 ```bash
-yarn add reactjs-use-hooks
+yarn add hook-react
 ```
 
 ## Hooks
@@ -25,11 +25,12 @@ yarn add reactjs-use-hooks
 - useInterval
 - useTimeout
 - useDebounce
+- useBreakpoint
 
 ## Examples
 
 ```javascript
-import { useLocalStorage, useWindowSize  } from 'reactjs-use-hooks';
+import { useLocalStorage, useWindowSize  } from 'hook-react';
 
 const [name, setName] = useLocalStorage('name', 'Bob');
 const size = useWindowSize();
