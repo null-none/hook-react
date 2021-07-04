@@ -1,6 +1,6 @@
 {
   "name": "hook-react",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "React hooks",
   "main": "index.js",
   "repository": {
@@ -17,9 +17,9 @@
     "url": "https://github.com/null-none/hook-react/issues"
   },
   "devDependencies": {
-    "react": "17.0.1",
+    "react": "17.0.2",
     "react-router-dom": "5.2.0",
-    "query-string": "6.13.7"
+    "query-string": "7.0.1"
   },
   "homepage": "https://github.com/null-none/hook-react",
   "author": "Dmitry Kalinin",
