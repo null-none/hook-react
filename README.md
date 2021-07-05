@@ -26,6 +26,7 @@ yarn add hook-react
 - useTimeout
 - useDebounce
 - useBreakpoint
+- useHeight
 
 ## Examples
 
