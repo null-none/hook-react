@@ -27,6 +27,7 @@ yarn add hook-react
 - useDebounce
 - useBreakpoint
 - useHeight
+- useFetch
 
 ## Examples
 

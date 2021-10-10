@@ -13,3 +13,4 @@ export { default as useWindowSize } from './src/useWindowSize';
 export { default as useDebounce } from './src/useDebounce';
 export { default as useBreakpoint } from './src/useBreakpoint';
 export { default as useHeight } from './src/useHeight';
+export { default as useFetch } from './src/useFetch';
