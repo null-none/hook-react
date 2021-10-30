@@ -14,3 +14,7 @@ export { default as useDebounce } from './src/useDebounce';
 export { default as useBreakpoint } from './src/useBreakpoint';
 export { default as useHeight } from './src/useHeight';
 export { default as useFetch } from './src/useFetch';
+export { default as useArray } from './src/useArray';
+export { default as useEffectOnce } from './src/useEffectOnce';
+export { default as useToggle } from './src/useToggle';
+export { default as useUpdate } from './src/useUpdate';

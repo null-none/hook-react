@@ -28,6 +28,10 @@ yarn add hook-react
 - useBreakpoint
 - useHeight
 - useFetch
+- useUpdate
+- useToggle
+- useArray
+- useEffectOnce
 
 ## Examples
 
