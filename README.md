@@ -32,6 +32,7 @@ yarn add hook-react
 - useToggle
 - useArray
 - useEffectOnce
+- useCookies
 
 ## Examples
 
